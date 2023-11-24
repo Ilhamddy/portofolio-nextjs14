@@ -11,12 +11,20 @@ const Header = () => {
                     {/* banner image */}
                     <div>
                         {/* <img src={banner} alt="" className='lg:h-[386px]' /> */}
-                        <Image src="/Fotodiri-removebg-preview.png" width={400} height={400} className='lg:h-[386px]'></Image>
+                        <Image src="/Fotodiri-removebg-preview.png" width={380} height={400} quality={100} className='lg:h-[386px]'></Image>
                     </div>
                     {/* Banner content */}
                     <div className="md:w-3/5 ">
                         <h2 className='md:text-5xl text-4xl font-bold text-white mb-6'>Fullstack Developer</h2>
-                        <p className='pb-12 text-justify'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aperiam doloribus cumque debitis ducimus non. Minima blanditiis, fugit, nobis iure delectus quibusdam pariatur, saepe unde quisquam cumque sapiente soluta tempore in! Lorem ipsum dolor sit amet consectetur, adipisicing elit. Minima, omnis exercitationem? Pariatur incidunt autem, sit doloremque voluptate, vitae amet exercitationem placeat saepe, repellendus quisquam unde aspernatur. Non sequi provident cupiditate!</p>
+                        <p className='pb-12 text-justify'>Ilhamddy is a dedicated student who is currently enrolled in a full-stack web development course at Purwhadhika. With a strong foundation in computer science, ilhamddy has developed an aptitude for learning new technologies and incorporating them into innovative solutions.
+                            <br />
+                            <br />
+                            To further enhance his skills, ilhamddy has actively participated in coding competitions, hackathons, and collaborative projects. This hands-on experience has allowed him to develop critical thinking, problem-solving, and teamwork skills, which are crucial for a successful career in full-stack web development.
+
+
+
+
+                        </p>
                         <div>
                             <button className='py-2 px-8 bg-white font-semibold text-black  my-5 rounded hover:bg-black hover:text-white transition-all duration-300'>Get Started</button>
                             <button className='py-2 px-8 font-semibold text-white mx-5 my-5 rounded hover:bg-black hover:text-white transition-all duration-300'>Contact</button>

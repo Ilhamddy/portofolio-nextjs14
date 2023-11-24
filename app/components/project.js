@@ -14,7 +14,7 @@ const Project = () => {
                 {/* featured cards */}
 
                 <div className="lg:w-3/4 flex flex-wrap justify-center">
-                    <div className="grid md:grid-cols-4 sm:grid-cols-3 grid-cols-2">
+                    <div className="grid md:grid-cols-2 sm:grid-cols-2 grid-cols-1">
                         <div className="p-1 max-w-sm ">
                             <div class="flex rounded-lg h-full dark:bg-gray-800 bg-primary p-8 flex-col">
                                 <div class="flex items-center mb-3">

@@ -1,6 +1,6 @@
 "use client"
 
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 // icon import
 import { GrLanguage } from "react-icons/gr";
 import { FaBars, FaXmark } from "react-icons/fa6"
@@ -10,7 +10,7 @@ import Image from "next/image";
 
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
-
+    console.log(isMenuOpen);
     const toogleMenu = () => {
         setIsMenuOpen(!isMenuOpen);
     }
@@ -30,7 +30,7 @@ const Navbar = () => {
                     {/* navbar */}
                     <div className="flex space-x-14 items-center">
                         <a href="./about.js" className="text-2xl font-semibold flex items-center space-x-3 text-primary">
-                            <CgBoy className="mr-2" />  <span>Ilhamddy</span>
+                            <Image src="/react.svg" width={50} height={50} ></Image> <span>Ilhamddy</span>
                         </a>
                         {/* showing nav items */}
                         <ul className="md:flex max-sm:hidden space-x-12 lg:flex ">
@@ -61,15 +61,16 @@ const Navbar = () => {
 
                         </button>
                     </div>
-
                 </div>
             </nav>
 
-            <div className={`lg:hidden space-y-4 px-4 pt-24 pb-5 bg-secondary ${isMenuOpen ? "block fixed top-0 right-0 left-0" : "hidden"}`} >
+            <div className={`lg:hidden space-y-4 px-4 pt-24 pb-5 bg-secondary ${isMenuOpen ? "block top-0 right-0 left-0" : "hidden"}`} >
                 {
                     navItems.map(({ link, path }) => <a key={link} href={path} className="block hover:text-gray-300">{link}</a>)
                 }
             </div>
+
+
         </>
     )
 }
