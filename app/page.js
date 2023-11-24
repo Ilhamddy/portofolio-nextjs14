@@ -14,7 +14,7 @@ export const metadata = {
   openGraph: {
     title: "Ilhamddy || Portofolio Website",
     description: "Ilhamddy is a dedicated student who is currently enrolled in a full-stack web development course at Purwhadhika. With a strong foundation in computer science, Ilhamdody has developed an aptitude for learning new technologies and incorporating them into innovative solutions.",
-    images: "https://drive.google.com/file/d/1Qksdo0tEcOM2gFHQPCCxwHTvjTOp34po/view?usp=sharing",
+    images: "https://img.freepik.com/free-photo/3d-render-little-boy-with-camera-isolated-white-background_1142-32341.jpg?t=st=1700812489~exp=1700816089~hmac=0d5d78d9d5d14d0d9715c57713ebf37a8b649ceb87d9ec93b28b850734e148ab&w=1060",
   }
 }
 
