@@ -17,9 +17,17 @@
 }
 
 .gradientBg {
-  background: linear-gradient(99deg, #DDF2FD 0%, #3682ac 100%);
+  background: linear-gradient(99deg, #092635  0%, #092635 100%);
+  /* background: linear-gradient(99deg, #5aacd9 0%, #DDF2FD 100%); */
+
 }
 
 .gradientBgcontact {
-  background: linear-gradient(99deg, #5aacd9 0%, #DDF2FD 100%);
+  background: linear-gradient(99deg, #092635 0%, #092635 100%);
+  /* background: linear-gradient(99deg, #5aacd9 0%, #DDF2FD 100%); */
+
+}
+
+html{
+  scroll-behavior: smooth;
 }
